@@ -1,5 +1,6 @@
 .env
 appsettings.json
+dotnet-image-script/dotnet/publish/appsettings.json
 # Node.js
 node_modules/
 
