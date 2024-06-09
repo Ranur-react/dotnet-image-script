@@ -1,0 +1,9 @@
+.env
+# Node.js
+node_modules/
+
+# Other patterns
+logs
+*.log
+npm-debug.log*
+...
