@@ -16,8 +16,8 @@ def main():
         "docker stop net1",
         "docker rm net1",
         "docker rmi dotnet1",
-        "docker build -t dotnet1 .",
-        "docker run -d --name net1  -p 4001:80 dotnet1"
+        "sudo docker build -t dotnet1 .",
+        "sudo docker run -d --name net1  -p 4001:80 dotnet1"
     ]
 
     for command in commands:
