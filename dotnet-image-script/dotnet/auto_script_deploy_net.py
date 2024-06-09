@@ -13,11 +13,11 @@ def run_command(command):
 def main():
     commands = [
         "git pull",
-        "docker stop net1",
-        "docker rm net1",
-        "docker rmi dotnet1",
+        "sudo docker stop net1 || true",  # Ignore error if container does not exist
+        "sudo docker rm net1 || true",    # Ignore error if container does not exist
+        "sudo docker rmi dotnet1 || true",  # Ignore error if image does not exist
         "sudo docker build -t dotnet1 .",
-        "docker run -d -p 8080:8081 --name net1 dotnet1"
+        "sudo docker run -d -p 8080:8080 --name net1 dotnet1"  # Ensure correct port mapping
     ]
 
     for command in commands:
