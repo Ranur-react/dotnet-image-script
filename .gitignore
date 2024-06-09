@@ -1,4 +1,5 @@
 .env
+appsettings.json
 # Node.js
 node_modules/
 
