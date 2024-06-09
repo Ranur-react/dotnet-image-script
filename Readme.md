@@ -88,5 +88,5 @@ Pastikan port 4001 terbuka di firewall:
 ```sh
 sudo ufw allow 4001
 ```
-Dengan langkah-langkah ini, aplikasi Anda sekarang seharusnya dapat diakses di <http://ip:4001/>. Jika ada masalah lebih lanjut atau pertanyaan tambahan, jangan ragu untuk bertanya kepada saya secara pribadi lewat linkedin atau email rahmatnur844@gmail.com.
+Dengan langkah-langkah ini, aplikasi Anda sekarang seharusnya dapat diakses API di <http://ip:4001/> via POSTMAN atau script kodingan anda. Jika ada masalah lebih lanjut atau pertanyaan tambahan, jangan ragu untuk bertanya kepada saya secara pribadi lewat linkedin atau email rahmatnur844@gmail.com.
 
