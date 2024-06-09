@@ -17,7 +17,7 @@ def main():
         "docker rm sql1",
         "docker rmi mssqlserver",
         "docker build -t mssqlserver .",
-        "docker run -d --name sql1 -p 1433:1433 mssqlserver"
+        "docker run -p 1433:1433 --name sql1 --hostname sql1 -d mssqlserver"
     ]
 
     for command in commands:
