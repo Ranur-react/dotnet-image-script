@@ -9,3 +9,4 @@ services:
     ports:
       - "${PORT}:1433"
     hostname: ${HOSTNAME}
+    container_name: sql1
