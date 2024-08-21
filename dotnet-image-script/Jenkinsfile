@@ -17,15 +17,15 @@ pipeline {
                 }
             }
         }
-        stage('Copy .env File') {
-            steps {
-                script {
-                    sh 'cat /mnt/env-aset/dotnet-image-script/sql.env'
-                    sh 'cp /mnt/env-aset/dotnet-image-script/sql.env dotnet-image-script/mssql/.env'
-                    sh 'cat dotnet-image-script/mssql/.env'
-                }
-            }
-        }
+        // stage('Copy .env File') {
+        //     steps {
+        //         script {
+        //             sh 'cat /mnt/env-aset/dotnet-image-script/sql.env'
+        //             sh 'cp /mnt/env-aset/dotnet-image-script/sql.env dotnet-image-script/mssql/.env'
+        //             sh 'cat dotnet-image-script/mssql/.env'
+        //         }
+        //     }
+        // }
         // stage('Container Renewal') {
         //     steps {
         //         script {
