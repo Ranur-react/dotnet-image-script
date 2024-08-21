@@ -1,4 +1,4 @@
-# Deployment of .NET Core API with Docker
+# Deploym the .NET Core  project with Docker
 
 Panduan ini menjelaskan langkah-langkah untuk mempublikasikan proyek .NET Core API Anda dan menjalankannya dalam container Docker.
 
