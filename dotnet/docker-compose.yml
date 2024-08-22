@@ -1,0 +1,8 @@
+version: '3.8'
+
+services: 
+  dotnet:
+    image: ranur/dotnet:6.41
+    ports:
+      - "4101:4101"
+    container_name: app_net1

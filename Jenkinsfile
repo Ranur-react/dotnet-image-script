@@ -30,10 +30,10 @@ pipeline {
             steps {
                 script {
                     try {
-                        sh 'docker stop sql1'
-                        sh 'docker rm sql1'
+                        sh 'docker stop db_sql1'
+                        sh 'docker rm db_sql1'
                     } catch (Exception e) {
-                        echo "Container sql1 was not running or could not be stopped/removed: ${e}"
+                        echo "Container db_sql1 was not running or could not be stopped/removed: ${e}"
                     }
                 }
             }
